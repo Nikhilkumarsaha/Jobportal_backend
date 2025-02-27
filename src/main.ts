@@ -16,8 +16,8 @@ async function bootstrap() {
   );
 
   app.enableCors();
-  app.useGlobalPipes(new ValidationPipe());
 
+  app.useGlobalPipes(new ValidationPipe());
   const config = new DocumentBuilder()
     .setTitle('Job Portal API')
     .setDescription('The Job Portal API description')
