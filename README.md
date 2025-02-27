@@ -83,6 +83,17 @@ src/
    ```
    Edit the `.env` file with your configuration.
 
+Environment Variables
+
+Key environment variables:
+- `DB_HOST`: Database host
+- `DB_PORT`: Database port
+- `DB_USERNAME`: Database username
+- `DB_PASSWORD`: Database password
+- `DB_DATABASE`: Database name
+- `JWT_SECRET`: Secret for JWT signing
+- `PORT`: Application port
+
 ### Running the Application
 
 #### Using Docker (recommended)
