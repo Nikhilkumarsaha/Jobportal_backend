@@ -18,7 +18,6 @@ This is the backend service for the Job Portal application, built with NestJS, T
 - **TypeORM**: Object-Relational Mapping for database interactions
 - **JWT**: For secure authentication
 - **Docker**: For containerization and easy deployment
-- **Swagger**: For API documentation
 
 ## Project Structure
 
@@ -66,7 +65,7 @@ src/
 ### Prerequisites
 - Node.js (v16 or later)
 - npm or yarn
-- Docker and Docker Compose (optional, for containerized setup)
+- Docker and Docker Compose (for containerized setup)
 - PostgreSQL (if not using Docker)
 
 ### Installation
